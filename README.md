@@ -38,5 +38,5 @@ A full-stack web application for efficient task management with user authenticat
 
 ### 1. Get the Code
 ```bash
-git clone https://github.com/anirudhhk/taskflow-app.git
+git clone https://github.com/anii-k05/tasktrack
 cd taskflow-app
