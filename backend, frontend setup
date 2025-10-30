@@ -1,0 +1,13 @@
+--backend--
+cd backend
+cp .env.example .env
+# Edit .env -> set DATABASE_URL to your MySQL (mysql://USER:PASSWORD@HOST:PORT/DB)
+npm install
+npx prisma generate
+npm run prisma:migrate
+npm run dev
+
+--frontend--
+cd frontend
+npm install
+npm run dev
